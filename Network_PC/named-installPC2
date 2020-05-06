@@ -1,0 +1,18 @@
+#!/bin/sh
+
+tar -zxvf NamedConfPC2.tar.gz
+
+echo "cp named-conf/named-part3.conf /etc"
+cp named-conf/named-part3.conf /etc
+
+echo "cp named-conf/named-part6.conf /etc"
+cp named-conf/named-part6.conf /etc
+
+echo "cp -r named-conf/part3 /var/named/"
+cp -r named-conf/part3 /var/named/
+
+echo "cp -r named-conf/part6 /var/named/"
+cp -r named-conf/part6 /var/named/
+echo "finished!"
+
+rm -Rf named-conf

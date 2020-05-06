@@ -1,0 +1,18 @@
+{
+    "name": "491g-PC",
+    "category": "guest",
+    "description": "a light weight linux container built upon ipterm for the 491g lab of UMass",
+    "product_name": "491g-lab",
+    "vendor_name": "491g-lab",
+    "vendor_url": "https://www.debian.org",
+    "registry_version": 1,
+    "status": "stable",
+    "maintainer": "Steven Tran",
+    "maintainer_email": "stevenlaitran@gmail.com",
+    "usage": "The /root directory is persistent.",
+    "symbol": "linux_guest.svg",
+    "docker": {
+        "adapters": 2,
+        "image": "stevenlaitran/491g-lab:latest"
+    }
+}
